@@ -1,6 +1,6 @@
 {
     "name": "amadeco/module-db-override",
-    "description": "A module to enable experimental mariadb 11.0 support before offical support is available.",
+    "description": "A module to enable experimental mariadb 12.X series before offical support is available.",
     "license": "OSL-3.0",
     "require": {
         "php": "~8.1.0||~8.2.0||~8.3.0",
