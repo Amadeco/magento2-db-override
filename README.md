@@ -47,7 +47,7 @@ bin/magento setup:static-content:deploy
 - MySQL 8.0
 - MariaDB 10.2 - 10.6 - 10.11
 - MariaDB 11.4
-- MariaDB 12.0
+- MariaDB 12.0 - 12.4
 
 ## Contributing
 
