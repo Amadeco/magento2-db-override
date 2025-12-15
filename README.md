@@ -7,9 +7,7 @@
 
 [SPONSOR: Amadeco](https://www.amadeco.fr)
 
-Extend database version compatibility for Magento 2 with experimental support for MariaDB 11.0 and enhanced version detection.
-
-**Only useful for versions of Magento < 2.4.8**
+Extend database version compatibility for Magento 2 with experimental support for MariaDB 11.X/12.X and enhanced version detection.
 
 ## Installation
 
@@ -45,10 +43,11 @@ bin/magento setup:static-content:deploy
 
 ### 🛠 Supported Database Versions
 
-- MySQL 8.0
 - MySQL 5.7
-- MariaDB 10.2 - 10.11
-- MariaDB 11.0 - 11.4
+- MySQL 8.0
+- MariaDB 10.2 - 10.6 - 10.11
+- MariaDB 11.4
+- MariaDB 12.0
 
 ## Contributing
 
