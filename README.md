@@ -39,7 +39,7 @@ bin/magento setup:static-content:deploy
 ## Compatibility
 
 - Magento 2.4.x
-- PHP 8.1, 8.2, 8.3
+- PHP 8.3
 
 ### 🛠 Supported Database Versions
 
