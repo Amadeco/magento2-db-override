@@ -4,7 +4,11 @@
     "license": "OSL-3.0",
     "require": {
         "php": "~8.1.0||~8.2.0||~8.3.0",
-        "magento/framework": "*"
+        "magento/framework": "*",
+        "magento/module-sales-rule": "*"
+    },
+    "suggest": {
+        "smile/module-elasticsuite-catalog-optimizer": "Adds the same from_date/to_date quoting fix to the ElasticSuite optimizer validity-date filter when present (MariaDB 12.x)."
     },
     "type": "magento2-module",
     "authors": [
