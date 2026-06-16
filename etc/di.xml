@@ -23,4 +23,8 @@
             </argument>
         </arguments>
     </type>
+    <type name="Magento\Framework\Setup\Declaration\Schema\Dto\Factories\Table">
+        <plugin name="amadeco_dboverride_utf8mb4_default_modern_mariadb"
+                type="Amadeco\DbOverride\Plugin\Utf8mb4DefaultForModernMariaDb"/>
+    </type>
 </config>
