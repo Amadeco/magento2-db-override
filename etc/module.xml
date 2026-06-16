@@ -10,5 +10,10 @@
  -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Amadeco_DbOverride" />
+    <module name="Amadeco_DbOverride">
+        <sequence>
+            <module name="Magento_SalesRule"/>
+            <module name="Smile_ElasticsuiteCatalogOptimizer"/>
+        </sequence>
+    </module>
 </config>

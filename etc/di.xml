@@ -27,4 +27,16 @@
         <plugin name="amadeco_dboverride_utf8mb4_default_modern_mariadb"
                 type="Amadeco\DbOverride\Plugin\Utf8mb4DefaultForModernMariaDb"/>
     </type>
+    <!-- Cart price rule validity window: DateApplier emits unquoted from_date/to_date. -->
+    <type name="Magento\SalesRule\Model\ResourceModel\Rule\DateApplier">
+        <plugin name="amadeco_dboverride_quote_salesrule_date_filter"
+                type="Amadeco\DbOverride\Plugin\SalesRule\Model\ResourceModel\Rule\DateApplierQuoting"
+                sortOrder="10"/>
+    </type>
+    <!-- ElasticSuite optimizer validity window: Collection emits unquoted from_date/to_date. -->
+    <type name="Smile\ElasticsuiteCatalogOptimizer\Model\ResourceModel\Optimizer\Collection">
+        <plugin name="amadeco_dboverride_quote_optimizer_date_filter"
+                type="Amadeco\DbOverride\Plugin\Smile\ElasticsuiteCatalogOptimizer\Model\ResourceModel\Optimizer\CollectionDateFilterQuoting"
+                sortOrder="10"/>
+    </type>
 </config>

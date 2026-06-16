@@ -3,12 +3,12 @@
     "description": "A module to enable experimental mariadb 12.X series before offical support is available.",
     "license": "OSL-3.0",
     "require": {
-        "php": "~8.1.0||~8.2.0||~8.3.0",
-        "magento/framework": "*",
-        "magento/module-sales-rule": "*"
+        "php": "~8.3.0||~8.4.0||~8.5.0",
+        "magento/framework": "*"
     },
     "suggest": {
-        "smile/module-elasticsuite-catalog-optimizer": "Adds the same from_date/to_date quoting fix to the ElasticSuite optimizer validity-date filter when present (MariaDB 12.x)."
+        "magento/module-sales-rule": "Enables the from_date/to_date reserved-word quoting fix for cart price-rule validity windows on MariaDB 12.x (ships with every standard Magento install).",
+        "smile/module-elasticsuite-catalog-optimizer": "Enables the same from_date/to_date quoting fix for the ElasticSuite optimizer validity-date filter when present (MariaDB 12.x). Provided by the smile/elasticsuite monorepo."
     },
     "type": "magento2-module",
     "authors": [
